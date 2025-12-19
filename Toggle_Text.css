@@ -1,19 +1,28 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;  
+    align-items: center;     
+    min-height: 100vh;   
+    margin: 0;               
+    overflow-x: hidden;      
+    }
 h1 {
-    text-align:center;
-    font-size:50px;
-    font-weight:bold;
-    text-transform:capitalize;
+    font-size: 10vw;          
+    font-weight: bold;
+    text-transform: capitalize;
     font-family: 'Courier New', Courier, monospace;
     color: aliceblue;
-}
+    margin-bottom: 20px;      
 button {
-    display:block;
-    margin:auto;
+    padding: 15px 30px;       
+    font-size: 1.5rem;        
     font-family: 'Courier New', Courier, monospace;
     color: aliceblue;
     background-color: blue;
-    border-color: blue;
-}
-body {
-    background-color: black;
+    border: 2px solid blue;
+    border-radius: 8px;      
+    cursor: pointer;
+    max-width: 80%;           
 }
